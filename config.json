@@ -1,0 +1,44 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Minecraft - The World Eater Update",
+	"namespace": "eater",
+	"authors": [
+		"Haden"
+	],
+	"targetVersion": "1.19.0",
+	"description": "Adds an \"Eater of Worlds\" to Minecraft. Summon-able in the end dimension.",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": true,
+		"experimentalMolangFeatures": true,
+		"theWildUpdate": true,
+		"educationEdition": false
+	},
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Minecraft - The World Eater Update"
+				}
+			]
+		]
+	}
+}

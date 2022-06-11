@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Haden"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.11"
+			],
+			"dash": [
+				"0.8.13"
+			]
+		}
+	},
+	"header": {
+		"name": "Minecraft - The World Eater Update",
+		"description": "Adds an \"Eater of Worlds\" to Minecraft. Summon-able in the end dimension.",
+		"min_engine_version": [
+			1,
+			19,
+			0
+		],
+		"uuid": "9b2fcd09-eedd-4225-83a7-79fd0ad219cd",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "1f9346d1-23d2-4880-ad78-f20c333b3da5",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
