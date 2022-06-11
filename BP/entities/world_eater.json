@@ -1,0 +1,76 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "eater:world_eater",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:health": {
+				"value": 600
+			},
+			"minecraft:scale": {
+				"value": 1.5
+			},
+			"minecraft:collision_box": {
+				"width": 3.05,
+				"height": 4
+			},
+			"minecraft:movement": {
+				"value": 0.2
+			},
+			"minecraft:breathable": {
+				"breathes_solids": true,
+				"breathes_water": true,
+				"breathes_lava": true
+			},
+			"minecraft:physics": {
+				"has_collision": false
+			},
+			"minecraft:boss": {
+				"should_darken_sky": true,
+				"hud_range": 300,
+				"name": "The World Eater"
+			},
+			"minecraft:can_fly": {},
+			"minecraft:type_family": {
+				"family": [
+					"ghast",
+					"dragon",
+					"enderman",
+					"monster",
+					"mob"
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "fall",
+					"deals_damage": false
+				}
+			},
+			"minecraft:navigation.float": {
+				"can_sink": true
+			},
+			"minecraft:behavior.float": {},
+			"minecraft:break_blocks": {
+				"breakable_blocks": [
+					"minecraft:grass"
+				]
+			},
+			"minecraft:behavior.move_to_block": {
+				"target_blocks": [
+					"grass"
+				],
+				"speed_multiplier": 0.5,
+				"search_height": 64,
+				"search_range": 64,
+				"tick_interval": 1,
+				"target_selection_method": "nearest"
+			}
+		},
+		"events": {}
+	}
+}
