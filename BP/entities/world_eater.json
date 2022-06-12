@@ -82,17 +82,17 @@
 							"subject": "other",
 							"value": "player"
 						},
-						"max_dist": 40
+						"max_dist": 100
 					}
 				],
-				"must_see": true,
-				"within_radius": 30
+				"must_see": false,
+				"within_radius": 100
 			},
 			"minecraft:behavior.ranged_attack": {
 				"priority": 0,
 				"attack_interval_min": 1.0,
 				"attack_interval_max": 3.0,
-				"attack_radius": 30.0
+				"attack_radius": 100.0
 			},
 			"minecraft:shooter": {
 				"def": "eater:laser_beam"
