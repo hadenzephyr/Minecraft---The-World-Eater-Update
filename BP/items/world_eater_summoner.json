@@ -1,0 +1,43 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "eater:world_eater_summoner",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "eater_world_eater_summoner"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "eater:test_is_validd"
+				}
+			},
+			"minecraft:max_stack_size": 1
+		},
+		"events": {
+			"eater:test_is_valid": {
+				"run_command": {
+					"command": "/summon eater:spawn_checker ~ ~ ~",
+					"target": "block"
+				}
+			},
+			"eater:test_is_validd": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": "/summon eater:world_eater"
+						}
+					},
+					{
+						"run_command": {
+							"command": "/clear @p eater:world_eater_summoner 0",
+							"target": "player"
+						}
+					}
+				]
+			}
+		}
+	}
+}
