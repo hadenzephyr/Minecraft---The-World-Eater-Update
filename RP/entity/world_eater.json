@@ -22,12 +22,14 @@
 			"animations": {
 				"blink": "animation.world_eater.blink",
 				"chomp": "animation.world_eater.chomp",
-				"jojopose": "animation.world_eater.jojopose"
+				"jojopose": "animation.world_eater.jojopose",
+				"float": "animation.world_eater.float"
 			},
 			"scripts": {
 				"animate": [
 					"blink",
-					"jojopose"
+					"jojopose",
+					"float"
 				]
 			}
 		}
