@@ -55,21 +55,50 @@
 				"can_sink": true
 			},
 			"minecraft:behavior.float": {},
-			"minecraft:break_blocks": {
-				"breakable_blocks": [
-					"minecraft:grass"
-				]
+			"minecraft:experience_reward": {
+				"on_death": 100
 			},
-			"minecraft:behavior.move_to_block": {
-				"target_blocks": [
-					"grass"
+			"minecraft:flying_speed": {
+				"value": 1
+			},
+			"minecraft:attack_damage": {
+				"value": 10
+			},
+			"minecraft:behavior.float_wander": {
+				"priority": 2,
+				"must_reach": true
+			},
+			"minecraft:follow_range": {
+				"value": 200,
+				"max": 200
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 0,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 60
+					}
 				],
-				"speed_multiplier": 0.5,
-				"search_height": 64,
-				"search_range": 64,
-				"tick_interval": 1,
-				"target_selection_method": "nearest"
-			}
+				"must_see": true,
+				"within_radius": 30
+			},
+			"minecraft:behavior.ranged_attack": {
+				"priority": 0,
+				"attack_radius": 64,
+				"charge_shoot_trigger": 2,
+				"charge_charged_trigger": 1,
+				"attack_interval": 0.1,
+			},
+			"minecraft:shooter": {
+				"def": "shulker_bullet",
+				"aux_val": 1
+			},
+			"minecraft:persistent": {}
 		},
 		"events": {}
 	}
