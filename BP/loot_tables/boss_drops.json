@@ -7,7 +7,15 @@
 					"type": "item",
 					"name": "eater:ancient_shard",
 					"weight": 1,
-					"functions"
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"max": 5,
+								"min": 2
+							}
+						}
+					]
 				}
 			]
 		}

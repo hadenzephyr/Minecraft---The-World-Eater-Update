@@ -13,6 +13,9 @@
 		},
 		"eater_ancient_shard": {
 			"textures": "textures/items/ancient_shard"
+		},
+		"eater_ancient_ingot": {
+			"textures": "textures/items/ancient_ingot"
 		}
 	}
 }
