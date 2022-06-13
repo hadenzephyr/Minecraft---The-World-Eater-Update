@@ -2,12 +2,12 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "eater:world_eater_summoner",
+			"identifier": "eater:ancient_dust",
 			"category": "nature"
 		},
 		"components": {
 			"minecraft:icon": {
-				"texture": "eater_world_eater_summoner"
+				"texture": "eater_ancient_dust"
 			},
 			"minecraft:on_use": {
 				"on_use": {
@@ -32,7 +32,7 @@
 					},
 					{
 						"run_command": {
-							"command": "/clear @p eater:world_eater_summoner 0",
+							"command": "/clear @p eater:ancient_dust 0",
 							"target": "player"
 						}
 					}

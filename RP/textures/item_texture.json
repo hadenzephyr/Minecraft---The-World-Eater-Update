@@ -14,6 +14,9 @@
 		"eater_ancient_boots": {
 			"textures": "textures/items/ancient_boots"
 		},
+		"eater_ancient_dust": {
+			"textures": "textures/items/ancient_dust"
+		},
 		"eater_blade_of_the_ancient": {
 			"textures": "textures/items/blade_of_the_ancient"
 		},

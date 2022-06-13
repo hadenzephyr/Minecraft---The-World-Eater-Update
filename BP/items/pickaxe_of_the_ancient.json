@@ -12,7 +12,11 @@
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
 			"minecraft:durability": {
-				"max_durability": 150
+				"max_durability": 3074,
+				"damage_chance": {
+					"min": 1,
+					"max": 1
+				}
 			},
 			"minecraft:icon": {
 				"texture": "eater_pickaxe_of_the_ancient"
@@ -27,8 +31,8 @@
 					}
 				]
 			},
-			"minecraft:mining_speed": 1,
-			"minecraft:damage": 3,
+			"minecraft:mining_speed": 30,
+			"minecraft:damage": 100,
 			"minecraft:enchantable": {
 				"value": 14,
 				"slot": "pickaxe"
@@ -38,21 +42,1202 @@
 				"destroy_speeds": [
 					{
 						"block": {
-							"tags": "query.any_tag('stone', 'metal', 'iron_pick_diggable')"
+							"tags": "q.any_tag('stone', 'metal', 'iron_pick_diggable')"
 						},
-						"speed": 5
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
 					},
 					{
 						"block": "minecraft:ice",
-						"speed": 5
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
 					},
 					{
 						"block": "minecraft:sandstone",
-						"speed": 5
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:netherrack",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:copper_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:tuff",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:calcite",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:emerald_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:nether_brick",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:stonebrick",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:amethyst_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:red_nether_brick",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:lapis_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:diamond_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:quartz_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:quartz_bricks",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:quartz_ore",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:nether_gold_ore",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:end_stone",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:end_bricks",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:purpur_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:hardened_clay",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:stained_hardened_clay",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:hopper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:dispenser",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:dropper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:redstone_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:observer",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:furnace",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:lit_furnace",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:blast_furnace",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:lit_blast_furnace",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:smoker",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:lit_smoker",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:basalt",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:deepslate",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:lodestone",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:blackstone",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:prismarine",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:chiseled_nether_bricks",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:coal_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_tiles",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_basalt",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:respawn_anchor",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:copper_ore",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_copper_ore",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_lapis_ore",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:concrete",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:smooth_basalt",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:bone_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_blackstone_bricks",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:gilded_blackstone",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:red_sandstone",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:raw_iron_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:raw_copper_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:raw_gold_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:cut_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:exposed_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:exposed_cut_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:oxidized_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:oxidized_cut_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_cut_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_exposed_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_exposed_cut_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_oxidized_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_oxidized_cut_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_weathered_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:weathered_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_weathered_cut_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:weathered_cut_copper",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:smooth_stone",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:infested_deepslate",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_deepslate",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_blackstone",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_blackstone_bricks",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:cracked_polished_blackstone_bricks",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:cracked_deepslate_tiles",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_bricks",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:cracked_deepslate_bricks",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:cracked_nether_bricks",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:chiseled_deepslate",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:chiseled_polished_blackstone",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:magma",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:anvil",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:blackstone_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_blackstone_brick_wall",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:cobbled_deepslate_wall",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_tile_wall",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_deepslate_wall",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_brick_wall",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:blackstone_wall",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_blackstone_wall",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:cobbled_deepslate_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:cut_copper_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_brick_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_tile_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:exposed_cut_copper_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:oxidized_cut_copper_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_blackstone_brick_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_blackstone_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_deepslate_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:stone_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:stone_slab2",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:stone_slab3",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:stone_slab4",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_cut_copper_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_exposed_cut_copper_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_oxidized_cut_copper_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_weathered_cut_copper_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:weathered_cut_copper_slab",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:sandstone_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:smooth_sandstone_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:red_sandstone_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:smooth_red_sandstone_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:cut_copper_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:exposed_cut_copper_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:oxidized_cut_copper_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_cut_copper_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_exposed_cut_copper_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_oxidized_cut_copper_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:waxed_weathered_cut_copper_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:weathered_cut_copper_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:cobbled_deepslate_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_tile_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_deepslate_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_brick_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:prismarine_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:dark_prismarine_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:prismarine_bricks_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:andesite_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_andesite_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:brick_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:nether_brick_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:red_nether_brick_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:end_brick_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:quartz_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:smooth_quartz_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:quartz_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:purpur_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:normal_stone_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:mossy_cobblestone_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:stone_brick_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:mossy_stone_brick_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:granite_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_granite_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:diorite_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_diorite_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:blackstone_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_blackstone_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_blackstone_brick_stairs",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:undyed_shulker_box",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:shulker_box",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:crimson_nylium",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:warped_nylium",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:iron_trapdoor",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_blackstone_button",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:stonecutter_block",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:polished_blackstone_pressure_plate",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:light_weighted_pressure_plate",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:heavy_weighted_pressure_plate",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:grindstone",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:mob_spawner",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:obsidian",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": {
+							"tags": "q.any_tag('cobalt_level')"
+						},
+						"speed": 35,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:ancient_debris",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:cobbled_deepslate",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:lantern",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
+					},
+					{
+						"block": "minecraft:soul_lantern",
+						"speed": 8.5,
+						"on_dig": {
+							"event": "eater:durability"
+						}
 					}
 				]
 			},
 			"tag:minecraft:is_pickaxe": {}
+		},
+		"events": {
+			"eater:durability": {
+				"damage": {
+					"type": "durability",
+					"amount": 1
+				}
+			}
 		}
 	}
 }

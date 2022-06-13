@@ -46,6 +46,15 @@
 					"mob"
 				]
 			},
+			"minecraft:break_blocks": {
+				"breakable_blocks": [
+					"end_stone",
+					"grass",
+					"dirt",
+					"stone",
+					"obsidian"
+				]
+			},
 			"minecraft:damage_sensor": {
 				"triggers": {
 					"cause": "fall",
@@ -67,7 +76,7 @@
 			},
 			"minecraft:behavior.float_wander": {
 				"priority": 2,
-				"must_reach": true
+				"must_reach": false
 			},
 			"minecraft:follow_range": {
 				"value": 100,
@@ -95,7 +104,7 @@
 				"attack_radius": 100.0
 			},
 			"minecraft:shooter": {
-				"def": "eater:laser_beam"
+				"def": "minecraft:fireball"
 			},
 			"minecraft:persistent": {}
 		},

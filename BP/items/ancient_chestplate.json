@@ -23,7 +23,7 @@
 			},
 			"minecraft:render_offsets": "chestplates",
 			"minecraft:armor": {
-				"protection": 6
+				"protection": 8
 			},
 			"minecraft:wearable": {
 				"slot": "slot.armor.chest"
