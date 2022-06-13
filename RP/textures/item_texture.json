@@ -10,6 +10,9 @@
 		},
 		"eater_pickaxe_of_the_ancient": {
 			"textures": "textures/items/pickaxe_of_the_ancient"
+		},
+		"eater_ancient_shard": {
+			"textures": "textures/items/ancient_shard"
 		}
 	}
 }
