@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:icon": {
-				"texture": "ancient_dust"
+				"texture": "eater_ancient_dust"
 			},
 			"minecraft:on_use": {
 				"on_use": {

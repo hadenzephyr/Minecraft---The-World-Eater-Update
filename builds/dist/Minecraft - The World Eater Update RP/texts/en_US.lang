@@ -1,0 +1,4 @@
+item.spawn_egg.entity.eater:world_eater.name=Spawn World Eater
+entity.eater:world_eater.name=World Eater
+item.spawn_egg.entity.eater:laser_beam.name=Spawn Laser Beam
+entity.eater:laser_beam.name=Laser Beam
