@@ -2,14 +2,23 @@
 	"resource_pack_name": "Minecraft - The World Eater Update",
 	"texture_name": "atlas.items",
 	"texture_data": {
-		"eater_world_eater_summoner": {
-			"textures": "textures/items/world_eater_summoner"
-		},
-		"blade_of_the_acients": {
+		"blade_of_the_ancients": {
 			"textures": "textures/items/blade_of_the_ancient"
 		},
-		"eater_pickaxe_of_the_ancient": {
-			"textures": "textures/items/pickaxe_of_the_ancient"
+		"ancient_boots": {
+			"textures": "textures/items/ancient_boots"
+		},
+		"ancient_chestplate": {
+			"textures": "textures/items/ancient_chestplate"
+		},
+		"ancient_dust": {
+			"textures": "textures/items/ancient_dust"
+		},
+		"ancient_helmet": {
+			"textures": "textures/items/ancient_helmet"
+		},
+		"ancient_leggings": {
+			"textures": "textures/items/ancient_leggings"
 		},
 		"eater_ancient_shard": {
 			"textures": "textures/items/ancient_shard"
