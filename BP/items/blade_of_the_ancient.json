@@ -56,6 +56,10 @@
 			},
 			"minecraft:display_name": {
 				"value": "Blade Of The Ancient"
+			},
+			"minecraft:cooldown": {
+				"duration": 10,
+				"category": "eater:murder"
 			}
 		},
 		"events": {
