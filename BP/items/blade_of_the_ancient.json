@@ -46,9 +46,6 @@
 			"minecraft:cooldown": {
 				"duration": 20,
 				"category": "sword"
-			},
-			"minecraft:display_name": {
-				"value": "Blade Of The Acient"
 			}
 		},
 		"events": {
