@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "eater:ancient_boots_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"a": {
+				"item": "ancient_ingot"
+			}
+		},
+		"pattern": [
+			"eee",
+			"aea",
+			"aea"
+		],
+		"result": {
+			"item": "eater:ancient_boots",
+			"count": 1
+		}
+	}
+}
