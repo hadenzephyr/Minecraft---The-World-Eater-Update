@@ -1,0 +1,17 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.laser_beam.movse": {
+			"loop": true,
+			"bones": {
+				"beam": {
+					"rotation": [
+						"variable.shake_power-query.target_y_rotation",
+						"-query.target_y_rotation",
+						0
+					]
+				}
+			}
+		}
+	}
+}

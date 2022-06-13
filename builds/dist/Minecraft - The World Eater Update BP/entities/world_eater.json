@@ -1,0 +1,104 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "eater:world_eater",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:health": {
+				"value": 600
+			},
+			"minecraft:scale": {
+				"value": 1.5
+			},
+			"minecraft:collision_box": {
+				"width": 1.55,
+				"height": 2
+			},
+			"minecraft:movement": {
+				"value": 0.2
+			},
+			"minecraft:can_climb": {},
+			"minecraft:breathable": {
+				"breathes_solids": true,
+				"breathes_water": true,
+				"breathes_lava": true
+			},
+			"minecraft:physics": {
+				"has_collision": false
+			},
+			"minecraft:boss": {
+				"should_darken_sky": true,
+				"hud_range": 300,
+				"name": "The World Eater"
+			},
+			"minecraft:can_fly": {},
+			"minecraft:type_family": {
+				"family": [
+					"ghast",
+					"dragon",
+					"enderman",
+					"monster",
+					"mob"
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "fall",
+					"deals_damage": false
+				}
+			},
+			"minecraft:navigation.float": {
+				"can_sink": true
+			},
+			"minecraft:behavior.float": {},
+			"minecraft:experience_reward": {
+				"on_death": 100
+			},
+			"minecraft:flying_speed": {
+				"value": 0.2
+			},
+			"minecraft:attack_damage": {
+				"value": 10
+			},
+			"minecraft:behavior.float_wander": {
+				"priority": 2,
+				"must_reach": true
+			},
+			"minecraft:follow_range": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 0,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 100
+					}
+				],
+				"must_see": false,
+				"within_radius": 100
+			},
+			"minecraft:behavior.ranged_attack": {
+				"priority": 0,
+				"attack_interval_min": 1,
+				"attack_interval_max": 3,
+				"attack_radius": 100
+			},
+			"minecraft:shooter": {
+				"def": "eater:laser_beam"
+			},
+			"minecraft:persistent": {}
+		},
+		"events": {}
+	}
+}
