@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "eater:ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"n": {
+				"item": "eater:ancient_shard"
+			},
+			"t": {
+				"item": "netherite_ingot"
+			}
+		},
+		"pattern": [
+			"nt"
+		],
+		"result": {
+			"item": "eater:ancient_ingot",
+			"count": 1
+		}
+	}
+}
