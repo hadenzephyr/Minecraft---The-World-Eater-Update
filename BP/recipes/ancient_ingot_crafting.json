@@ -2,32 +2,24 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "eater:sword_crafting"
+			"identifier": "eater:ancient_ingot_crafting"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"n": {
-				"item": "nether_star"
-			},
-			"e": {
-				"item": "ender_eye"
-			},
-			"b": {
-				"item": "blaze_rod"
+				"item": "eater:ancient_shard"
 			},
 			"t": {
 				"item": "netherite_ingot"
 			}
 		},
 		"pattern": [
-			"lel",
-			"tnt",
-			"lbl"
+			"nt"
 		],
 		"result": {
-			"item": "eater:blade_of_the_ancient",
+			"item": "eater:ancient_ingot",
 			"count": 1
 		}
 	}

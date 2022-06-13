@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "eater:ancient_helmet_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"a": {
+				"item": "eater:ancient_ingot"
+			}
+		},
+		"pattern": [
+			"aaa",
+			"aea",
+			"eee"
+		],
+		"result": {
+			"item": "eater:ancient_helmet",
+			"count": 1
+		}
+	}
+}

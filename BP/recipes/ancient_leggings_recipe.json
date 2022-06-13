@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "eater:ancient_leggings_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"a": {
+				"item": "eater:ancient_ingot"
+			}
+		},
+		"pattern": [
+			"aaa",
+			"aea",
+			"aea"
+		],
+		"result": {
+			"item": "eater:ancient_leggings",
+			"count": 1
+		}
+	}
+}

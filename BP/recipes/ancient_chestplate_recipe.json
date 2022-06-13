@@ -2,24 +2,23 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "eater:ingot"
+			"identifier": "eater:ancient_chestplate_recipe"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
-			"n": {
-				"item": "eater:ancient_shard"
-			},
-			"t": {
-				"item": "netherite_ingot"
+			"a": {
+				"item": "eater:ancient_ingot"
 			}
 		},
 		"pattern": [
-			"nt"
+			"aea",
+			"aaa",
+			"aaa"
 		],
 		"result": {
-			"item": "eater:ancient_ingot",
+			"item": "eater:ancient_chestplate",
 			"count": 1
 		}
 	}
