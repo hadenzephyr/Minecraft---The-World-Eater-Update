@@ -19,7 +19,7 @@
 				}
 			},
 			"minecraft:icon": {
-				"texture": "eater_ancient_chestplate"
+				"texture": "ancient_chestplate"
 			},
 			"minecraft:render_offsets": "chestplates",
 			"minecraft:armor": {

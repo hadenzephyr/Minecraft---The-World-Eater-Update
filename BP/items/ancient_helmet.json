@@ -19,7 +19,7 @@
 				}
 			},
 			"minecraft:icon": {
-				"texture": "eater_ancient_helmet"
+				"texture": "ancient_helmet"
 			},
 			"minecraft:render_offsets": "helmets",
 			"minecraft:armor": {

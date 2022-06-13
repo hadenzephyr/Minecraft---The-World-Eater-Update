@@ -19,7 +19,7 @@
 				}
 			},
 			"minecraft:icon": {
-				"texture": "eater_ancient_boots"
+				"texture": "ancient_boots"
 			},
 			"minecraft:render_offsets": "boots",
 			"minecraft:armor": {
